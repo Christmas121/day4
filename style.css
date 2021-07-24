@@ -1,0 +1,330 @@
+body{
+    background-color: rgb(247, 199, 8);
+    margin: 0px;
+    background-image: url(./fresh\ \(1\).gif);
+    height: 250px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0;
+    color:rebeccapurple;
+      
+
+}
+
+header{
+    background-color:rgb(226, 15, 15);
+    color: rgb(241, 195, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    padding: 2rem;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+    font-weight: bolder;
+    font-size: larger;
+}
+li {
+    list-style-type: none;
+    margin: 1px;
+    border-width: 15;
+    display: inline-block;
+}
+
+#speech {
+    text-align: center;
+    color: rgb(240, 193, 181);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color:rgb(185, 136, 10)
+}
+
+nav{
+    background-color: rgb(10, 194, 10);
+    text-transform: capitalize;
+    padding: 0px;
+    margin: 0px;
+    color: red;
+}
+
+ul{
+    text-align: center;
+    margin: 0rem;
+    color: red;
+}
+
+li{
+    list-style: none;
+    padding: 2em;
+    margin: 3px;
+    display: inline-block;
+
+}
+
+a{
+    background-color: tomato;
+    color: rgb(71, 212, 255);
+    font-weight: bolder;
+    padding: 0px;
+    text-decoration: none;
+    font-size: xx-large;
+    border-radius: 5px;
+    margin: 0rem 3rem;
+
+}
+
+
+a:hover {
+    background-color: gold;
+    color: whitesmoke;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: red;
+    color: cornsilk;
+}
+h1{
+    text-align:center;
+    color: rgb(250, 169, 169);
+}
+.about_us{
+  font-weight: bolder;
+    color:rgb(250, 233, 164);
+    text-align:center;
+    margin: 1rem;
+    padding: 2px;
+    
+}
+
+#soup_menu{
+    color: red;
+    font-weight: bolder;
+}
+
+#swal_low {
+    text-align:left;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+#but_ton{
+    text-align: center;
+}
+#snack_pasteries{
+    color: red;
+    font-weight: bolder;
+
+}
+.about_us_input{
+        
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 3rem;
+    border: 3px;
+    box-sizing: border-box;
+}
+::placeholder{
+    font-size: 1rem;
+    padding: auto 2rem;
+    color: tomato;
+}
+
+#image1{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 3rem;
+    border: 3px solid rgb(65, 128, 65);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#images {
+    background-color: rgb(168, 73, 57);
+    width: 100%;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#head_line{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration-color: rgb(255, 71, 71);
+    font-weight: bolder;
+
+}
+
+#table_menu {
+    background-color: honeydew;
+    width: 100%;
+    margin: 1.5rem;
+    }
+table{
+    width: 100%;
+    border: 2px;
+    border-collapse: collapse;
+}
+
+    tr:nth-child(even){
+        background-color: tomato;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    td{
+        font-weight: bold;
+    }
+
+    th{
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    .meal_type{
+        background-color: tomato;
+    }
+
+.contact{
+    width: 70%;
+    height: 250px;
+    background-color: teal;
+    margin: 5rem 1rem;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    justify-content: center;
+    padding: 2rem 1rem;
+    background-size: 100%;
+    background-image: url(./back.jpg);
+}
+
+.about{
+    background-image: url(./back.jpg);
+}
+.home {
+    background-image: url(./back.jpg);
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #28e732;
+  }
+  
+  a {
+    color: #76af2c;
+    font-size: 25px;
+
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
